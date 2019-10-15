@@ -8,4 +8,4 @@ NOTE: This is an unofficial 3rd party extension made by a noob web developer
 - Filter genres
 
 
-## [Download](#)
+## [Download here](https://addons.mozilla.org/en-US/firefox/addon/9gag-extension/)
