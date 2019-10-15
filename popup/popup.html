@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+     <body>
+
+         <div class="row">
+             <div class="header"><h6>9GAG Controller</h6></div>
+         </div>
+
+         <div class="row">
+
+             <div class="col s12">
+
+                 <label for="volume">Video volume</label>
+                    <div class="input-field">
+                        <i class="material-icons prefix volume_icon">volume_up</i>
+                        <input id="volume" type="range" min="0" max="100">
+                    </div>
+             </div>
+         </div><!-- /Row -->
+
+         <div class="row">
+
+             <div class="row col s12">
+                 <label for="controls">Show gif controls
+                     <input type="checkbox" id="controls"/>
+                     <span></span><!--Doesnt work without for some reason xd-->
+                 </label>
+             </div>
+
+         </div><!-- /Row -->
+
+         <div id="footer">
+             <i class="material-icons">copyright</i>
+             Pawz 2018
+         </div>
+
+         <!--<script src="/Assets/materialize/js/materialize.min.js"></script>-->
+         <script src="popup.js"></script>
+     </body>
+</html>

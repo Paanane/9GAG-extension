@@ -1,0 +1,38 @@
+{
+
+  "name": "9GAG-Extension",
+
+  "version": "0.3",
+
+  "description": "Series of quality-of-life changes and features for 9GAG.",
+
+  "manifest_version": 2,
+
+  "icons": {
+    "48": "Assets/icons/9gag-50.png"
+  },
+
+  "browser_action": {
+    "default_icon": "Assets/icons/9gag-50.png",
+    "default_title": "9gag Master",
+    "default_popup": "popup/popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.9gag.com/*"],
+      "js": ["main.js"]
+    },
+    {
+      "matches": ["*://*.9gag.com/gag/*"],
+      "js": ["post.js"]
+    }
+  ],
+
+  "permissions": [
+    "tabs",
+    "storage",
+    "*://*/*"
+  ]
+
+}

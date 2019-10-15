@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #dedede;
+    width: 300px;
+    max-height: 500px;
+}
+
+.input-field,
+.row:not(:first-child) {
+	margin-bottom: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    background-color: #232323;
+    color: #cdcdcd;
+}
+
+.volume_icon {
+    cursor: pointer;
+}
+
+#volume {
+    border: none;
+}
+
+#footer {
+    background-color: #232323;
+    color: #cdcdcd;
+    height: 25px;
+    text-align: center;
+}
+
+#footer > i {
+    font-size: 12px;
+}
